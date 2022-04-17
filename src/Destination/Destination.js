@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "./Destination.css"
 
 const Destination = ({ destination }) => {
@@ -17,7 +18,7 @@ const Destination = ({ destination }) => {
                         <Card.Text>
                             {description}
                         </Card.Text>
-                        <Card.Text>Last updated 3 mins ago</Card.Text>
+                        <Link className='service-detail' to={'/servicedetail'}>check this package</Link>
                     </Card.ImgOverlay>
                 </Card>
             </div>
