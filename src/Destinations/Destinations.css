@@ -1,0 +1,26 @@
+.places {
+    padding-left: 20px;
+}
+
+.places-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media only screen and (max-width:576px) {
+    .places {
+        padding-left: 0px;
+    }
+
+    .places-container {
+        width: 75;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .places-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

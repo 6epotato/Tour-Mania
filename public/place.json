@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Dubai",
+        "price": "15000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/Nj1g4Sh/dubai.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Machupichu",
+        "price": "8000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/mXCwmBy/machupichu.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Maldives",
+        "price": "10000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/wZkGvSY/maldivs.jpg"
+    },
+    {
+        "id": 4,
+        "name": "New York",
+        "price": "12000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/1QfZZLK/newyork.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Paris",
+        "price": "13000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/fvZxFJg/paris.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Singapore",
+        "price": "5000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/zmSFSYx/singapur.jpg"
+    }
+]

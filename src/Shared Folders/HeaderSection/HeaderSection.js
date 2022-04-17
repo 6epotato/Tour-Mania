@@ -1,21 +1,35 @@
 import React from 'react';
 import { Container, Nav, Navbar, } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './HeaderSection.css'
 
 const HeaderSection = () => {
     return (
 
-        <Navbar className='navbar-light' variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                <Nav className="ms-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
+                <Navbar.Brand href='/home'>
+                    {/* <Logo
+              alt=""
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            /> */}
+                    Dice Roller
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                        <Link className='nav-link' to={'/Home'}>Home</Link>
+                        <Link className='nav-link' to={'/about'}>About</Link>
+                    </Nav>
+                    <Nav className='ms-auto'>
+                        {/* <Nav.Link to={'/login'}>Login</Nav.Link> */}
+                        <Link className='nav-link' to={'/login'}>Login</Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
-
 
     );
 };
