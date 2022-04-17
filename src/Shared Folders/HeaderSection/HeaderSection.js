@@ -20,8 +20,9 @@ const HeaderSection = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Link className='nav-link' to={'/Home'}>Home</Link>
+                        <Link className='nav-link' to={'/home'}>Home</Link>
                         <Link className='nav-link' to={'/about'}>About</Link>
+                        <Link className='nav-link' to={'/checkout'}>Checkout</Link>
                     </Nav>
                     <Nav className='ms-auto'>
                         {/* <Nav.Link to={'/login'}>Login</Nav.Link> */}

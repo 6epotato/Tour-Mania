@@ -4,6 +4,7 @@ import Home from './Home/Home';
 import HeaderSection from './Shared Folders/HeaderSection/HeaderSection';
 import Footer from './Shared Folders/Footer/Footer';
 import About from './About/About';
+import Checkout from "./Checkout/Checkout"
 import Login from './Authentication/Login/Login';
 import Register from './Authentication/Register/Register';
 import NotFound from './NotFound/NotFound';
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/checkout' element={<Checkout></Checkout>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Dubai",
         "price": "15000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline.",
         "img": "https://i.ibb.co/Nj1g4Sh/dubai.jpg"
     },
     {
         "id": 2,
         "name": "Machupichu",
         "price": "8000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned,",
         "img": "https://i.ibb.co/mXCwmBy/machupichu.jpg"
     },
     {
         "id": 3,
         "name": "Maldives",
         "price": "10000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Maldives, officially the Republic of Maldives, is an archipelagic country in the Indian subcontinent of Asia, situated in the Indian Ocean. ",
         "img": "https://i.ibb.co/wZkGvSY/maldivs.jpg"
     },
     {
         "id": 4,
         "name": "New York",
         "price": "12000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. ",
         "img": "https://i.ibb.co/1QfZZLK/newyork.jpg"
     },
     {
         "id": 5,
         "name": "Paris",
         "price": "13000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Also known as the Latin Quarter, the 5th arrondissement is home to the Sorbonne university and student-filled cafes. ",
         "img": "https://i.ibb.co/fvZxFJg/paris.jpg"
     },
     {
         "id": 6,
         "name": "Singapore",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia. ",
         "img": "https://i.ibb.co/zmSFSYx/singapur.jpg"
     }
 ]
