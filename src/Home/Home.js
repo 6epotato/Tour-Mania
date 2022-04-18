@@ -7,8 +7,8 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <div className='text-center my-5'>
-                <h2>Your Next Tour Destination</h2>
-                <p>My services are</p>
+                <h2>For Your Next Tour Destination</h2>
+                <h4>My services are</h4>
             </div>
             <Destinations></Destinations>
 

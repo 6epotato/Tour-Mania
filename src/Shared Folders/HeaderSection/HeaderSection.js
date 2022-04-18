@@ -13,7 +13,7 @@ const HeaderSection = () => {
     const [user] = useAuthState(auth);
     return (
 
-        <Navbar collapseOnSelect expand="lg" bg="info" >
+        <Navbar collapseOnSelect expand="lg" bg="info" sticky="top" >
             <Container>
                 <Navbar.Brand href='/home'>
                     {/* <Logo
