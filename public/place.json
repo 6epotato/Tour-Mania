@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Dubai",
+        "name": "Boat",
         "price": "15000",
-        "description": "Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline.",
-        "img": "https://i.ibb.co/Nj1g4Sh/dubai.jpg"
+        "description": "I can manage boat for our riding and make your tour best for that",
+        "img": "https://i.ibb.co/kXTcCbq/boat.jpg"
     },
     {
         "id": 2,
-        "name": "Machupichu",
+        "name": "Vehical",
         "price": "8000",
-        "description": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned,",
-        "img": "https://i.ibb.co/mXCwmBy/machupichu.jpg"
+        "description": "Ever ride chander gari at bandarban? On hillside road the chander gari is the best ride for view and it will give extra fun to your tour",
+        "img": "https://i.ibb.co/Xpr3JCr/chander-gari.jpg"
     },
     {
         "id": 3,
-        "name": "Maldives",
-        "price": "10000",
-        "description": "Maldives, officially the Republic of Maldives, is an archipelagic country in the Indian subcontinent of Asia, situated in the Indian Ocean. ",
-        "img": "https://i.ibb.co/wZkGvSY/maldivs.jpg"
+        "name": "Food",
+        "price": "1000",
+        "description": "Do you Ever have bamboo chicken from bandarban or rangamati? No tension I can manage this thing in a moment when You arive ",
+        "img": "https://i.ibb.co/XXdZ8s2/food.jpg"
     },
     {
         "id": 4,
-        "name": "New York",
+        "name": "Hotels",
         "price": "12000",
-        "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. ",
-        "img": "https://i.ibb.co/1QfZZLK/newyork.jpg"
+        "description": "You need beter hotel for beter tour and a best view from that hotel.I can manage any best hotel for you and make your tour  memorable ",
+        "img": "https://i.ibb.co/HxR6LrY/hotel.jpg"
     },
     {
         "id": 5,
-        "name": "Paris",
-        "price": "13000",
-        "description": "Also known as the Latin Quarter, the 5th arrondissement is home to the Sorbonne university and student-filled cafes. ",
-        "img": "https://i.ibb.co/fvZxFJg/paris.jpg"
+        "name": "Jet Ski",
+        "price": "3000",
+        "description": "I can make sure a JetSki ride on cox bazar for you. So what are You waiting for?",
+        "img": "https://i.ibb.co/crdCNf6/jetski.jpg"
     },
     {
         "id": 6,
-        "name": "Singapore",
-        "price": "5000",
-        "description": "Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast Asia. ",
-        "img": "https://i.ibb.co/zmSFSYx/singapur.jpg"
+        "name": "Parasailing",
+        "price": "2000",
+        "description": "Have You ever watch the sea beach from the sky?? Dont warry you will not fall from there. For Your seafty I can make sure the best Parasailing service for you",
+        "img": "https://i.ibb.co/K5rZ7Qx/parasailling.jpg"
     }
 ]

@@ -18,6 +18,7 @@ const Destinations = () => {
                             destination={destination}
                         ></Destination>)
                     }
+
                 </div>
             </div>
         </div>

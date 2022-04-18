@@ -34,11 +34,11 @@ const SocialLogin = () => {
                     Google Sign In</button>
             </div>
             {errorElement}
-            <div className='my-3'>
+            {/* <div className='my-3'>
                 <button className='btn btn-primary w-50  d-block mx-auto'>
                     <img className='px-2' src={facebook} alt="" />
                     Facebook Sign In</button>
-            </div>
+            </div> */}
 
         </div>
     );

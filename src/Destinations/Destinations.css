@@ -10,11 +10,10 @@
 
 @media only screen and (max-width:576px) {
     .places {
-        padding-left: 0px;
+        padding-left: 10px;
     }
 
     .places-container {
-        width: 75;
         grid-template-columns: repeat(1, 1fr);
     }
 }

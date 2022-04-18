@@ -1,35 +1,36 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Banner.css'
-import mountfuji from "../../../src/images/Banner/mountfuji.jpg"
-import hawai from "../../../src/images/Banner/hawai.jpg"
+import coxbazar from "../../../src/images/Banner/cox-bazar.jpg"
+import saintmartine from "../../../src/images/Banner/saint-martin.jpg"
 import bandarban from "../../../src/images/Banner/bandarban.jpg"
 import sylhet from "../../../src/images/Banner/sylhet.jpg"
+import './Banner.css'
 
 const Banner = () => {
     return (
-        <Carousel>
+        <Carousel className='banner'>
             <Carousel.Item>
                 <img
                     className="w-100"
-                    src={mountfuji}
+                    src={coxbazar}
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3> Mount Fuji </h3>
-                    <p>Japan’s Mt. Fuji is an active volcano about 100 kilometers southwest of Tokyo.</p>
+                    <h3>Cox-Bazar</h3>
+                    <p>Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={hawai}
+                    src={saintmartine}
                     alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Hawaii</h3>
-                    <p>Hawaii is a state in the Western United States, located in the Pacific Ocean about 2,000 miles from the U.S. mainland. </p>
+                    <h3>St. Martin's Island</h3>
+                    <p>St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

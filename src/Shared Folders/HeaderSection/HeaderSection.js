@@ -13,7 +13,7 @@ const HeaderSection = () => {
     const [user] = useAuthState(auth);
     return (
 
-        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="info" >
             <Container>
                 <Navbar.Brand href='/home'>
                     {/* <Logo
@@ -22,14 +22,14 @@ const HeaderSection = () => {
               height="30"
               className="d-inline-block align-top"
             /> */}
-                    Dice Roller
+                    Tour Mania
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Link className='nav-link' to={'/home'}>Home</Link>
                         <Link className='nav-link' to={'/about'}>About</Link>
-                        <Link className='nav-link' to={'/checkout'}>Checkout</Link>
+                        <Link className='nav-link' to={'/Blog'}>Blog</Link>
                     </Nav>
                     <Nav className='ms-auto'>
                         {
