@@ -26,9 +26,9 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
-    let errorElement;
+    let errorMassage;
     if (error) {
-        errorElement =
+        errorMassage =
             <div>
                 <p className='text-danger'>Error: {error.message}</p>
             </div>
@@ -65,7 +65,7 @@ const Login = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                {errorElement}
+                {errorMassage}
                 <Button variant="primary" type="submit">
                     Login
                 </Button>
