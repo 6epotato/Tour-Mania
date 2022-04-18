@@ -1,9 +1,12 @@
+import { async } from '@firebase/util';
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import auth from '../../firebase.init';
 import SocialLogin from './SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -22,9 +25,23 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+    let errorElement;
+    if (error) {
+        errorElement =
+            <div>
+                <p className='text-danger'>Error: {error.message}</p>
+            </div>
+
+    }
 
     if (user) {
         navigate(from, { replace: true });
+    }
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        await sendPasswordResetEmail(email);
+        toast('An Email has been sent for reset your password');
     }
     const handleSubmit = event => {
         event.preventDefault();
@@ -48,6 +65,7 @@ const Login = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
+                {errorElement}
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
@@ -56,7 +74,11 @@ const Login = () => {
                 </Button>
             </Form>
             <p>New to My website?? <Link to={'/register'} className='pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <p> Forgot Password?
+                <Button onClick={resetPassword} className='pe-auto text-decoration-none' variant="link">Reset Password</Button>
+            </p>
             <SocialLogin></SocialLogin>
+            <ToastContainer />
         </div>
     );
 };

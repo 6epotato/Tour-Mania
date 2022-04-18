@@ -14,7 +14,7 @@ const Destination = ({ destination }) => {
                     <Card.Img src={img} alt="Card image" />
                     <Card.ImgOverlay>
                         <Card.Title>{name}</Card.Title>
-                        <Card.Text>{price}</Card.Text>
+                        <Card.Text>$ {price}</Card.Text>
                         <Card.Text>
                             {description}
                         </Card.Text>
