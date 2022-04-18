@@ -4,6 +4,7 @@ import { Button, Container, Nav, Navbar, } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
+import hot from '../../../src/images/logo/hot.png'
 import './HeaderSection.css'
 
 const HeaderSection = () => {
@@ -16,12 +17,8 @@ const HeaderSection = () => {
         <Navbar collapseOnSelect expand="lg" bg="info" sticky="top" >
             <Container>
                 <Navbar.Brand href='/home'>
-                    {/* <Logo
-              alt=""
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            /> */}
+                    <img className="d-inline-block align-top px-3" src={hot} alt="" />
+
                     Tour Mania
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

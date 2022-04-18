@@ -9,7 +9,7 @@ const ServiceDetail = () => {
             <h1 className='text-center my-5'>This is service will cost about {placeId} Taka</h1>
             <div className='text-center'>
                 <Link to={'/checkout'}>
-                    <button className='btn btn-primary btn-style'>Book this plan</button>
+                    <button className='btn btn-info btn-style'>Book this plan</button>
                 </Link>
             </div>
         </div >
